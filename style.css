@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content {
+    width: 100%;
+    padding: 2vh 2%;
+    margin-top: 20px;
+}
+.content .images {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.content .images .img1 {
+    height: 50vh;
+    background-image: url("./images/IMG-20250505-WA0037.jpg");
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+.content .images .img2 {
+    height: 50vh;
+    background-image: url("./images/IMG-20250505-WA0037.jpg");
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+.content .images .img3 {
+    height: 50vh;
+    background-image: url("./images/IMG-20250505-WA0037.jpg");
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+.content .images .img4 {
+    height: 50vh;
+    background-image: url("./images/IMG-20250505-WA0037.jpg");
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+.content .images .img5 {
+    height: 50vh;
+    background-image: url("./images/IMG-20250505-WA0037.jpg");
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+.content .images .img6 {
+    height: 50vh;
+    background-image: url("./images/IMG-20250505-WA0037.jpg");
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+.content .images .data {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transform: rotateX(90deg);
+    transition: 2s;
+    transform-origin: bottom;
+    border-radius: 20px;
+}
+.content .images .data h2 {
+    color: aliceblue;
+}
+.content .images .data button {
+    border-radius: 20px;
+    padding: 10px;
+}
+.content .images .img1:hover .data {
+    transform: rotateX(0deg);
+}
+.content .images .img2:hover .data {
+    transform: rotateX(0deg);
+}
+.content .images .img3:hover .data {
+    transform: rotateX(0deg);
+}
+.content .images .img4:hover .data {
+    transform: rotateX(0deg);
+}
+.content .images .img5:hover .data {
+    transform: rotateX(0deg);
+}
+.content .images .img6:hover .data {
+    transform: rotateX(0deg);
+}
