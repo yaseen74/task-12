@@ -526,6 +526,7 @@
     justify-content: center;
     gap: 20px;
     padding-bottom: 10vh;
+    cursor: pointer;
 }
 
 /* end social div */
@@ -568,6 +569,11 @@
 
     .maincontainer .content .about .ourfruit {
         width: 100%;
+    }
+
+    .maincontainer .content .about .ourfruit .hline {
+        width: 0;
+        height: 0;
     }
 
     .maincontainer .content .images {
