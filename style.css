@@ -166,7 +166,7 @@
 }
 .maincontainer .content .about .ourfruit .hline {
     width: 5px;
-    height: 20vh;
+    height: 15vh;
     background-color: black;
     margin: auto;
     margin-bottom: 10px;
@@ -212,12 +212,13 @@
 
 /* start images div */
 .maincontainer .content .images {
-    width: 100%;
+    width: 90%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
     margin-top: 50px;
+    margin: auto;
     padding: 0 2%;
 }
 .maincontainer .content .images .img1 {
@@ -505,6 +506,10 @@
     .maincontainer .content .about .ourfruit {
         width: 100%;
     }
+    .maincontainer .content .about .ourfruit .hline {
+        width: 0;
+        height: 0;
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -525,13 +530,29 @@
         width: 80%;
     }
     .maincontainer .content .about .image2 img {
-        width: 100%;
+        width: 90%;
+    }
+    .maincontainer .content .about .ourfruit .hline {
+        width: 0;
+        height: 0;
     }
     .maincontainer .content .about .ourfruit {
         width: 100%;
     }
     .maincontainer .content .images {
+        width: 90%;
+        margin: auto;
         grid-template-columns: repeat(2,1fr);
+    }
+    .maincontainer .content .map {
+        gap: 20px;
+    }
+    .maincontainer .content .map .textarea {
+        text-align: center;
+    }
+    .maincontainer .content .map .textarea textarea {
+        width: 75%;
+        text-align: center;
     }
     .maincontainer .content .social .parent3 {
         display: grid;
@@ -547,14 +568,23 @@
         gap: 15px;
     }
     /* content */
+    .maincontainer .content .about .ourfruit .hline {
+        width: 0;
+        height: 0;
+    }
     .maincontainer .content .images {
+        width: 80%;
+        margin: auto;
         grid-template-columns: repeat(1,1fr);
+    }
+    .maincontainer .content .map {
+        gap: 20px;
     }
     .maincontainer .content .map .textarea {
         text-align: center;
     }
     .maincontainer .content .map .textarea textarea {
-        width: 90%;
+        width: 75%;
         text-align: center;
     }
 }
