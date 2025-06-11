@@ -101,6 +101,7 @@
     overflow: hidden;
     text-align: center;
     width: 100px;
+    cursor: pointer;
 }
 
 .maincontainer .header .search i {
